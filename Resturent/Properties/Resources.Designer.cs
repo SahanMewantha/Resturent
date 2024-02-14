@@ -103,9 +103,29 @@ namespace Resturent.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _6a55f5fb899046a5a75aaf7fa91df62e {
+            get {
+                object obj = ResourceManager.GetObject("6a55f5fb899046a5a75aaf7fa91df62e", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _8679684_cake_food_icon {
             get {
                 object obj = ResourceManager.GetObject("8679684_cake_food_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Mixed_Vegetable_Fried_Rice_3_1 {
+            get {
+                object obj = ResourceManager.GetObject("Mixed-Vegetable-Fried-Rice-3-1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
