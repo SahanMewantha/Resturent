@@ -54,39 +54,49 @@ namespace Resturent
             {
 
                 //need to connect next interface
-                 AdminDashboard add = new AdminDashboard();
-                 add.Show();
-                 this.Hide();
+                AdminDashboard add = new AdminDashboard();
+                add.Show();
+                this.Hide();
 
             }
 
             //employee database
 
-           // string cus_name = textusername.Text.ToString();
-           // string password = textpassword.Text.ToString();
+            // string cus_name = textusername.Text.ToString();
+            // string password = textpassword.Text.ToString();
             //Dbemploye emp = new Dbemploye();
             //bool stat = emp.cuscheack(cus_name, password);
             //if (stat == false)
             //{
-              //  MessageBox.Show("Invalid Login as Employee !");
-                //textusername.Text = "";
-                //textpassword.Text = "";
-                //textusername.Focus();
-               // return;
+            //  MessageBox.Show("Invalid Login as Employee !");
+            //textusername.Text = "";
+            //textpassword.Text = "";
+            //textusername.Focus();
+            // return;
             //}
             //if (stat == true)
             //{
 
-                // need to connect next interface
-              //  Empdashboard empd = new Empdashboard();
-                //empd.Show();
+            // need to connect next interface
+            //  Empdashboard empd = new Empdashboard();
+            //empd.Show();
 
-                //this.Hide();
+            //this.Hide();
 
-            
+
         }
 
         private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2PictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
         }

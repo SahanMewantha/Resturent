@@ -26,5 +26,10 @@ namespace Resturent
         {
 
         }
+
+        private void guna2HtmlLabel40_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
