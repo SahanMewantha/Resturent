@@ -39,8 +39,11 @@ namespace Resturent
 
             string user_name = textusername.Text.ToString();
             string Password = textpassword.Text.ToString();
+            string access = "";
+
             DbTransactions login = new DbTransactions();
             bool status = login.loginCheck(user_name, Password);
+            access = login.Access;
 
             if (status == false)
             {
@@ -52,12 +55,21 @@ namespace Resturent
             }
             if (status == true)
             {
+                if (access == "admin")
+                {
+                    //admin access
+                    AdminDashboard admin = new AdminDashboard();
+                    admin.Show();
+                    this.Hide();
 
-                //need to connect next interface
-                AdminDashboard add = new AdminDashboard();
-                add.Show();
-                this.Hide();
-
+                }
+                else if (access == "user")
+                {
+                    // user access
+                    Food food = new Food();
+                    food.Show();
+                    this.Hide();
+                }
             }
 
             //employee database
